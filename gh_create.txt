@@ -1,0 +1,30 @@
+﻿
+gh : Warning: 'public' is 
+not in the list of known 
+options, but still passed 
+to Electron/Chromium.
+At line:1 char:1
++ gh repo create travel 
+--public --source=. 
+--push 2>&1 | Out-File 
+-Fil ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~
+    + CategoryInfo        
+      : NotSpecified: (W  
+  arning: 'publi...ctro   
+ n/Chromium.:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+Warning: 'source' is not 
+in the list of known 
+options, but still passed 
+to Electron/Chromium.
+Warning: 'push' is not in 
+the list of known 
+options, but still passed 
+to Electron/Chromium.

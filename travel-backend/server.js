@@ -107,3 +107,6 @@ app.post('/api/book', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+// Export the Express API for Vercel
+module.exports = app;

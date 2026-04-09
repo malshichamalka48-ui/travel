@@ -219,13 +219,13 @@ function App() {
     {
       name: 'Sarah Mitchell',
       location: 'New York, USA',
-      text: 'WANDER transformed our honeymoon into an absolute dream. Every detail was impeccably planned — from the private sunset cruise to the candlelit dinner on the beach.',
+      text: 'JourneyRush transformed our honeymoon into an absolute dream. Every detail was impeccably planned — from the private sunset cruise to the candlelit dinner on the beach.',
       avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
     },
     {
       name: 'James Chen',
       location: 'London, UK',
-      text: `I've traveled with many luxury agencies, but WANDER is in a league of its own. The attention to detail and local knowledge of their guides made all the difference.`,
+      text: `I've traveled with many luxury agencies, but JourneyRush is in a league of its own. The attention to detail and local knowledge of their guides made all the difference.`,
       avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
     },
     {
@@ -248,7 +248,7 @@ function App() {
       {/* Navigation */}
       <nav className="navbar" style={scrolled ? { background: 'rgba(10, 10, 10, 0.95)', padding: '1rem 4rem' } : {}}>
         <div className="nav-logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <h2>WANDER.</h2>
+          <h2>JourneyRush.</h2>
         </div>
         <ul className="nav-links">
           <li onClick={() => scrollToSection('destinations')}>Destinations</li>
@@ -352,7 +352,7 @@ function App() {
         <section className={`features ${visibleSections.has('why-us') ? 'visible' : ''}`} id="why-us">
           <div className="features-inner">
             <div className="features-text">
-              <span className="section-tag">WHY WANDER</span>
+              <span className="section-tag">WHY JOURNEYRUSH</span>
               <h2 className="section-title" style={{ textAlign: 'left' }}>Why Travelers Choose Us</h2>
               <p style={{ color: 'var(--text-light)', lineHeight: 1.7, marginBottom: '2rem' }}>
                 We don't just plan trips — we craft stories. Every detail is thoughtfully designed so you can focus on making memories.
@@ -464,7 +464,7 @@ function App() {
         <section className={`about-section ${visibleSections.has('about') ? 'visible' : ''}`} id="about">
           <div className="about-inner">
             <div className="about-image-col">
-              <img src="/last/istockphoto-1446375142-612x612.jpg" alt="About WANDER" className="about-img" />
+              <img src="/last/istockphoto-1446375142-612x612.jpg" alt="About JourneyRush" className="about-img" />
               <div className="about-badge">
                 <h3>10+</h3>
                 <p>Years of Excellence</p>
@@ -474,7 +474,7 @@ function App() {
               <span className="section-tag">ABOUT US</span>
               <h2 className="section-title" style={{ textAlign: 'left' }}>We Make Travel Extraordinary</h2>
               <p>
-                Founded in 2016, WANDER was born from a simple belief: travel should be transformative.
+                Founded in 2016, JourneyRush was born from a simple belief: travel should be transformative.
                 We partner with local experts in over 150 destinations to craft journeys that go beyond sightseeing.
               </p>
               <p>
@@ -527,7 +527,7 @@ function App() {
       <footer>
         <div className="footer-top">
           <div className="footer-brand">
-            <div className="footer-logo">WANDER.</div>
+            <div className="footer-logo">JourneyRush.</div>
             <p>Crafting extraordinary travel experiences since 2016. Let us help you discover the world's most beautiful destinations.</p>
           </div>
           <div className="footer-col">
@@ -559,7 +559,7 @@ function App() {
           </div>
         </div>
         <div className="copyright">
-          &copy; {new Date().getFullYear()} WANDER Travel Experiences. Made with passion.
+          &copy; {new Date().getFullYear()} JourneyRush Travel Experiences. Made with passion.
         </div>
       </footer>
       

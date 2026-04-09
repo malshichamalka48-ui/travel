@@ -1,0 +1,25 @@
+﻿git : remote: Permission 
+to malshichamalka48-ui/tra
+vel.git denied to 
+malshichamalka2006.
+At line:1 char:1
++ git push -u origin 
+master 2>&1 | Out-File 
+-FilePath push_error.txt 
+-E ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (r  
+  emote: Permiss...hich   
+ amalka2006.:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+fatal: unable to access 'h
+ttps://github.com/malshich
+amalka48-ui/travel.git/': 
+The requested URL 
+returned error: 403
