@@ -1,0 +1,9 @@
+[build]
+  command = "npm install"
+  functions = "netlify/functions"
+
+[[redirects]]
+  # This routes all API requests to the Netlify serverless function
+  from = "/api/*"
+  to = "/.netlify/functions/api/api/:splat"
+  status = 200
